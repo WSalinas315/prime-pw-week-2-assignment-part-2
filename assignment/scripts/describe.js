@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called name and assign it a value of "Dane".
+// We check if name is equal to "Mary", since it is not we move on to the else statement.
+// Inside the else statement we console log "How do you do?"
 
 //CODE
 /*
@@ -45,10 +44,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called secret but do not assign a value to it.
+// We create another variable called code and assign it a value of 123.
+// We check if code is equal to 123, if it is then we set secret to the string "super" and set code equal to twice 
+// its current value so it now equals 246.
+// We check if code is over 250, since 246 is not greater than 250 we do not perform any action.
+// Lastly we console log secret which will print "super" in the console.
 
 //CODE
 /*
