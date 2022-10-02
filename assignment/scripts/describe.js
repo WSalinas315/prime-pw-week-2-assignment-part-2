@@ -132,12 +132,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' rather than 'red. The next line should read: let colorOne = 'blue';
 let colorOne = 'red';
+// FIX - colorTwo should be set to 'red' rather than 'blue'. The next line should read: let colorTwo = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - colorTwo should also be set to 'purple' when the mix == true condition is satisfied. There should be another line
+  // that reads: colorTwo = 'purple';
 }
 */
 
@@ -147,8 +151,13 @@ if (mix === true) {
 
 /*
 let temp = 40;
+// FIX - Generally time is something that is subject to changing so it may be better to define time using let rather than const
+// however defining it as a constant does not negatively impact the rest of the code for this exercise as there is no attempt
+// to modify its value.
 const time = 4;
 
+// FIX - The conditional statement should be looking for both conditions to be true using an AND operator between the conditions 
+// rather than the OR operator. The folling line should read: if (temp > 39 && time >= 4){
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,10 +171,14 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - The code below is checking if minAge is less than or equal to age, but it should be checking if age is greater than or equal
+// to minAge. The following line should read:  if(age >= minAge){
 if(minAge <= age) {
+  // FIX - The console log should read 'enter' rather than 'no entry' as this code would execute when age is greater than or equal
+  // to min age
   console.log('no entry');
 } else {
+  // FIX - The console log should read 'no entry' as this code would exectue when age is less than minAge
   console.log('enter');
 }
 */
-
