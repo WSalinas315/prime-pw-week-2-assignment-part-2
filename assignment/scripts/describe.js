@@ -175,10 +175,11 @@ const minAge = 21;
 // to minAge. The following line should read:  if(age >= minAge){
 if(minAge <= age) {
   // FIX - The console log should read 'enter' rather than 'no entry' as this code would execute when age is greater than or equal
-  // to min age
+  // to min age. The following line should read:  console.log('enter');
   console.log('no entry');
 } else {
-  // FIX - The console log should read 'no entry' as this code would exectue when age is less than minAge
+  // FIX - The console log should read 'no entry' as this code would exectue when age is less than minAge. The following line
+  // should read:  console.log('no entry');
   console.log('enter');
 }
 */
