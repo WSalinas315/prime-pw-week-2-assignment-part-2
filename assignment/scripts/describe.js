@@ -71,10 +71,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called isStudent and set it to true.
+// We create two more variables, one called age with a value of 34 and one called zip with a value of 55407.
+// We check to see if isStudent is set to true (it is) and zip is greater than 80000. Zip is not greater than 80000 so we
+// move to the else if statement and check if isStudent is false or age is less than 30. Neither condition is true so we move to
+// the next else if statement which checks if isStudent is true. It is true so we console log "Welcome to Prime!"
 
 //CODE
 /*
